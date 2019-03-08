@@ -6,6 +6,5 @@ from .views import *
 
  
 urlpatterns = [
-     path('docs/', include_docs_urls(title='API Docs')),
-     path("contact/", ContactView.as_view())
+        path("feedback/", FeedbackView.as_view())
 ]
